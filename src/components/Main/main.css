@@ -1,0 +1,28 @@
+
+.feed {
+    padding: 15px; 
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(300px, 1fr)); 
+    gap: 15px; 
+}
+
+.video-card {
+    /* background: white; */
+    background: #000;
+    border-radius: 8px;
+    overflow: hidden; 
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1); 
+    cursor: pointer; 
+}
+
+.video-card img {
+    width: 100%; 
+    height: auto;
+}
+
+.video-card h4 {
+    padding: 10px; 
+    font-size: 1em; 
+    text-align: left; 
+    color: #fff;
+}

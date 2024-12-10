@@ -1,0 +1,17 @@
+
+.play-container {
+    background: #f9f9f9;
+    /* background: black; */
+    padding: 20px;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap; 
+}
+
+.video-card {
+    margin-bottom: 15px; 
+    border: 1px solid #ccc; 
+    border-radius: 5px;
+    display: flex;
+    flex-direction: column;
+}
